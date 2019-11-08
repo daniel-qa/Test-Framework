@@ -8,8 +8,8 @@ test case2
 	log    ${a}	
 	
 test case3
-	${hi}   Catenate    hello    world
-	log     ${hi}
+    ${hi}   Catenate    hello    world
+    log     ${hi}
 
 test case4
     ${hi}    Catenate    SEPARATOR=---    hello    world
