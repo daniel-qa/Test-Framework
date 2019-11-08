@@ -1,11 +1,11 @@
 *** Test Cases ***
 
 test case1
-	log    hello robot framework
-	
+    log    hello robot framework
+   
 test case2
-	${a}    Set variable    python
-	log    ${a}	
+    ${a}    Set variable    python
+    log    ${a}	
 	
 test case3
     ${hi}   Catenate    hello    world
